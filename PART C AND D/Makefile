@@ -16,4 +16,4 @@ Calculator.o: Calculator.cpp Calculator.h
 	$(CXX) $(CXXFLAGS) -c Calculator.cpp
 
 clean:
-	rm -f $(OBJS) $(TARGET)
+	rm -f $(OBJS) $(TARGET).exe
